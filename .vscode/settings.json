@@ -1,0 +1,57 @@
+{
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.semi": true,
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "scssFormatter.tabWidth": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "afterDelay",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "prettier.endOfLine": "lf",
+  "prettier.jsxSingleQuote": false,
+  "settingsSync.ignoredSettings": [
+    "prettier.endOfLine"
+  ],
+  "eslint.onIgnoredFiles": "warn",
+  "eslint.packageManager": "yarn",
+  "eslint.debug": true,
+  "eslint.lintTask.enable": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "sonarlint.connectedMode.project": {
+    "projectKey": "your-key"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "yaml.schemas": {},
+  "sonarlint.rules": {},
+  "prettier.enableDebugLogs": true,
+  "[scss]": {
+    "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+  },
+  "editor.fontSize": 18,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+  },
+  "workbench.editor.enablePreview": false
+}
