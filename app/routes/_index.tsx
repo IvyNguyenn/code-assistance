@@ -1,7 +1,18 @@
+import { Button } from "@chakra-ui/react";
 import type { V2_MetaFunction } from "@remix-run/react";
 
 export const meta: V2_MetaFunction = () => {
-  return [{ title: "New Remix App" }];
+  return [
+    { title: "Remix Tasks App" },
+    {
+      property: "og:title",
+      content: "Very cool app",
+    },
+    {
+      name: "description",
+      content: "This app is the task management system",
+    },
+  ];
 };
 
 export default function Index() {
@@ -31,6 +42,9 @@ export default function Index() {
           <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
             Remix Docs
           </a>
+        </li>
+        <li>
+          <Button colorScheme="blue">Button</Button>
         </li>
       </ul>
     </div>
